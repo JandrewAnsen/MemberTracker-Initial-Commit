@@ -16,12 +16,13 @@ class ViewController: NSViewController {
     @IBOutlet var comboDepartureDate: NSComboBox!
     @IBOutlet var comboMembership: NSComboBox!
     @IBOutlet var comboAge: NSComboBox!
+    @IBOutlet var ViewAddMember: NSView!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        preferredContentSize = NSSize(width: 335, height: 435)
         // Do any additional setup after loading the view.
     }
 

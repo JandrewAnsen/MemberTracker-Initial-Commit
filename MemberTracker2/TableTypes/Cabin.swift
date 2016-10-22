@@ -9,7 +9,8 @@
 import Foundation
 public class Cabin{
     
-    var CabinNum: String = ""
+    var CabinNum: Int = 0
+    var CabinDesc: String = ""
     var Location: LocationEnum = LocationEnum.Unspecified
     
 }
